@@ -1,0 +1,57 @@
+#navBar > #left{
+    width: 40%;
+    display: flex;
+}
+#navBar > button{
+    margin-top: 20px;
+    height: 40px;
+    border:  1px solid white;
+    padding: 0px 30px;
+    border-radius: 45px;
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    background-color: transparent;
+}
+#navBar > button:hover{
+    cursor: pointer;
+    color: rgba(212, 61, 61, 1);
+    border: 1px solid rgba(224, 61, 61, 1);
+}
+#search{
+    width: 150px;
+    height: 26px;
+    margin-top: 25px;
+    background-color: rgba(196, 196, 196, 0.1);
+    border: none;
+    outline: none;
+    color: rgba(255, 255, 255, 1);
+}
+#navBar > #left p{
+    margin-top: 25px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 30px;
+    letter-spacing: -0.015em;
+}
+#navBar #home{
+    color: rgba(123, 97, 255, 1);
+    margin-left: 30px;
+    width: 59px;
+}
+#navBar #privacyPolicy{
+    color: rgba(255, 255, 255, 1);
+    margin-left: 10px;
+    width: 110px;
+}
+#navBar #faqs{
+    color: rgba(255, 255, 255, 1);
+    margin-left: 10px;
+    width: 49px;
+}
+#navBar #blog{
+    color: rgba(255, 255, 255, 1);
+    margin-left: 10px;
+    width: 43px;
+}

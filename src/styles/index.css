@@ -1,0 +1,399 @@
+body{
+    background-color: black;
+    background-size: 1100px, 1100px, 320px,1100px, 900px, 1350px, 1700px;
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+    background-position: 300px 0px, 0px 420px, right 1810px, 350px 1000px, left 2150px, center 2500px, center bottom;
+    font-family: Poppins, sans-serif;
+}
+.hover:hover{
+    cursor: pointer;
+    /* filter:drop-shadow(rgba(212, 61, 61, 0.8) 0px 5px 15px); */
+}
+.arrowCircle:hover{
+    cursor: pointer;
+    border: 1px solid rgba(212, 61, 61, 1);
+    filter:drop-shadow(rgb(238, 6, 6) 0px 5px 15px);
+}
+.arrowDiv{
+    height: 90px;
+    width: 90px;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size: 90px 90px;
+    background-position: -90% -100%;
+    padding-top: 6px;
+    padding-left: 10px;
+}
+.arrowDiv .arrowCircle{
+    border: 1px solid white;
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.arrowDiv .arrowCircle .arrow{
+    height: 15px;
+    width: 27px;
+    margin-top: 32px;
+    margin-left: 23px;
+}
+#navBar{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    font-family: Poppins, sans-serif;
+}
+
+#main{
+    margin-bottom: 30px;
+}
+
+#main #op1{
+    width: 100%;
+    height: 550px;
+    display: flex;
+    font-family: Poppins, sans-serif;
+}
+#op1 > #opVerse{
+    width: 40%;
+    height: 100%;
+    margin-left: 180px;
+    color: white;
+}
+#opVerse > p:nth-child(1){
+    margin-top: 110px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    line-height: 20px;
+    letter-spacing: -0.015em;
+    font-weight: 600;
+}
+#opVerse > p:nth-child(2), #opVerse > p:nth-child(3){
+    font-size: 95px;
+    font-weight: 900;
+    line-height: 90px;
+    letter-spacing: -0.015em;
+}
+#opVerse > p:nth-child(3){
+    color: rgb(70,84,177);
+    margin-bottom: 90px;
+}
+#opVerse > p:nth-child(4){
+    font-size: 20px;
+    letter-spacing: 0.11em;
+    line-height: 30px;
+    margin-bottom: 40px;
+}
+#opVerse #downloadAppDiv{
+    height: 40px;
+    width: 200px;
+    background-size: 185px 34px;
+    background-repeat: no-repeat;
+}
+#opVerse button{
+    color: white;
+    padding: 0px 21px;
+    background: transparent;
+    border: 1px solid rgb(131,131,133);
+    border-radius: 26px;
+    font-size: 18px;
+    line-height: 32px;
+    margin-top: 4px;
+    margin-left: 8px;
+}
+#opVerse button:hover{
+    cursor: pointer;
+    color: rgba(212, 61, 61, 1);
+    border: 1px solid rgba(212, 61, 61, 1);
+}
+#opVerse button img{
+    width: 18px;
+    height: 18px;
+    margin-top: 5px;
+    margin-right: 7px;
+}
+#op1 > #ssDiv{
+    width: 47%;
+    height: 100%;
+    background-size: 90% 110%;
+    background-repeat: no-repeat;  
+}
+#ss{
+    width: 57%;
+    height: 95%; 
+    margin-left: 230px;
+    margin-bottom: 60px;
+}
+
+#main #op2{
+    display: flex;
+    width: 100%;
+    height: 530px;
+    margin-top: 80px;
+}
+
+#op2 #mobile{
+    height: 100%;
+    width: 45%;
+    margin-right: 30px;
+}
+#op2 #mobile #mobileImg{
+    width: 87%;
+    height: 110%;
+    margin-left: 80px;
+}
+#op2 #info{
+    height: 100%;
+    width: 45%;
+    font-family: Poppins, sans-serif;
+}
+#info p{
+    color: white;
+}
+.head{
+    margin-top: 220px;
+    margin-bottom: 40px;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: -0.015em;
+}
+.span{
+    color: rgb(123,97,255);
+}
+.infoContent{
+    font-size: 15px;
+    font-weight: 200;
+    letter-spacing: 0.1em;
+    line-height: 120.5%;
+}
+
+#main > #op3{
+    display: flex;
+    width: 100%;
+    height: 540px;
+    margin-top: 120px;
+    font-family: Poppins, sans-serif;
+}
+#mat p{
+    color: white;
+}
+#mat{
+    width: 35%;
+    height: 100%;
+    margin-left: 220px;
+}
+#season{
+    width: 50%;
+    height: 100%;
+}
+#season > div{
+    border: 1px solid rgb(180, 180, 180);
+    height: 300px;
+    width: 330px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.2) 100%);
+    backdrop-filter: blur(10px);
+    margin-left: 80px;
+    margin-top: 160px;
+    border-radius: 3px;
+    padding: 15px;
+}
+#season #seasonHead{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    gap: 15px;
+    opacity: 1;
+}
+#seasonHead img{
+    image-rendering: pixelated;
+}
+#seasonHead div{
+    padding-top: 5px;
+}
+.seasonPara{
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+}
+#seasonHead #seasonTag{
+    font-style: italic;
+    font-size: 9px;
+    font-weight: 10;
+    margin-top: 8px;
+    color: rgb(214, 214, 214);
+}
+#season hr{
+    border: 1px solid rgb(212, 212, 212);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#season .seasonInfo{
+    border: 1px solid rgb(180, 180, 180);
+    margin-bottom: 10px;
+    padding: 8px 20px 8px 20px;
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.005) 0%, rgba(255, 255, 255, 0.005));
+    backdrop-filter: blur(20px);
+    border-radius: 2px;
+}
+#season #seasonOverview{
+    width: 213px;
+    display: flex;
+    color: rgb(214, 214, 214);
+    font-size: 11px;
+    font-weight: 500;
+    padding-right: 0px;
+    gap: 15px;
+    margin-left: 115px;
+}
+#seasonOverview > div{
+    border: 1px solid rgb(214, 214, 214);
+    padding: 5px 5px;
+    display: flex;
+    background: linear-gradient(180deg, rgba(216, 255, 191, 0.1) 0%, rgba(216, 255, 191, 0.4) 100%);
+    border-radius: 2px;
+}
+#seasonOverview > div > p{
+    margin-top: 2px;
+}
+#seasonOverview > div > div{
+    border: 1px solid rgb(214, 214, 214);
+    border-radius: 15px;
+    font-size: 9px;
+    line-height: 5px;
+    padding: 4px;
+    margin-right: 4px;  
+}
+#main > #op4{
+    height: 520px;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding-top: 200px;
+    font-family: Poppins, sans-serif;
+}
+#op4 > p{
+    font-size: 35px;
+    line-height: 45px;
+    font-weight: 600;
+    letter-spacing: -0.015em;
+    text-transform: uppercase;
+    margin-bottom: 70px;
+}
+#op4 > #op4Content{
+    display: flex;
+    gap: 100px;
+    width: 65%;
+    margin: auto;
+}
+#op4 #op4Content .elf{
+    border: 1px solid rgba(81, 62, 177, 0.5);
+    padding: 15px;
+    padding-bottom: 30px;
+    height: 260px;
+    width: 28%;
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(123, 97, 255, 0.84) 0.01%, rgba(123, 97, 255, 0.15) 100%);
+    box-shadow: 0px 4px 107px 5px rgba(123, 97, 255, 0.5);
+    backdrop-filter: blur(16px);
+    border-radius: 2px;
+}
+#op4 #learn{
+    height: 110px;
+    width: 45%;
+    margin: auto;
+    margin-bottom: 35px;
+    margin-top: 10px;
+}
+#op4 #earn, #fun{
+    width: 70%;
+    margin-bottom: 40px;
+    margin-right: 20px;
+    margin-top: 25px;
+}
+#op4 .elfHead{
+    font-size: 23px;
+    line-height: 20px;
+    margin-bottom: 15px;
+    font-weight: 600;
+    letter-spacing: -0.015em;
+    text-transform: uppercase;
+}
+#op4 .elfContent{
+    color: rgb(214, 214, 214);;
+    font-size: 12px;
+    letter-spacing: 0.11em;
+    font-weight: 300;
+    line-height: 129.5%;
+}
+#main > #op5{
+    width: 100%;
+    height: 800px;
+    display: flex;
+    font-family: Poppins, sans-serif;
+}
+#op5 > div:nth-child(1){
+    width: 240px;
+    height: 480px;
+    margin-left: 220px;
+    margin-top: 250px;
+    border-radius: 20px;
+    background: linear-gradient(191.57deg, rgba(255, 80, 80, 0.67) 0.51%, rgba(255, 255, 255, 0.35) 98.52%);
+    backdrop-filter: blur(11px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#op5 #op5Add{
+    width: 95%;
+    height: 97%;
+    
+}
+#op5 > div:nth-child(2){
+    color: white;
+    width: 50%;
+    height: 50%;
+    margin-left: 100px;
+    padding-top: 350px;
+}
+#op5 #op5Head{
+    font-size: 30px;
+    font-weight: 550;
+    margin-bottom: 40px;
+}
+#op5 #op5Head span{
+    color: rgb(255,80,80);
+}
+#op5 .option{
+    display: flex;
+}
+#op5 .option > div{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    background: linear-gradient(180deg, rgba(180, 180, 180, 0.14) 0%, rgba(255, 255, 255, 0.4) 0.01%, rgba(255, 255, 255, 0.1) 100%);
+    box-shadow: 0px 4px 24px -1px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(13px);
+}
+#op5 .option > p{
+    margin-top: 5px;
+    margin-left: 20px;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+#footer{
+    width: 100%;
+    height: 440px;
+    color: rgba(255, 255, 255, 1);
+    margin: auto;
+    text-align: center;
+    font-family: Poppins, sans-serif;
+    background-position: center bottom;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}

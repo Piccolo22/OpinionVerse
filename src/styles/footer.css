@@ -1,0 +1,47 @@
+#footer #email, #contactNum{
+    background-color: rgb(68,63,90);
+    outline: none;
+    border: 1px solid rgb(112,109,124);
+    height: 33px;
+    width: 400px;
+    padding-left: 50px;
+    color: white;
+    border-radius: 2px;
+}
+#footer #email::placeholder, #contactNum::placeholder{
+    color: white;
+    font-weight: 200;
+    font-size: 13px;
+}
+#footer #submitDiv{
+    margin: auto;
+    width: 130px;
+    height: 45px;
+    background-repeat: no-repeat;
+    background-size: 110px 35px;
+    border-radius: 20px 90px 50px 60px
+}
+#footer #submit{
+    color: white;
+    padding: 5px 25px;
+    font-size: 18px;
+    font-style: normal;
+    background: transparent;
+    border-radius: 26px;
+    border: 1px solid rgb(148,142,176);
+    margin-top: 12px;
+    margin-left: 5px;
+}
+#submit:hover{
+    cursor: pointer;
+    color: rgba(212, 61, 61, 1);
+    border: 1px solid rgba(212, 61, 61, 1);
+}
+#footer p{
+    margin-bottom: 30px;
+    font-size: 35px;
+    line-height: 35px;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: -0.015em;
+}
